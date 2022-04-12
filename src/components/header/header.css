@@ -28,6 +28,7 @@ header {
     position: absolute;
     left: 0;
     bottom: 3rem;
+    transform: rotate(90deg);
 }
 
 .header_socials::after{
@@ -51,7 +52,30 @@ header {
 }
 
 .scroll_down {
-    /* position: absolute; */
+    position: absolute;
     right: -2.3rem;
     bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 200;
+}
+
+/* =========== MEDIA QUERIES(MEDIUM DEVICES) ============ */
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+    
+}
+
+/* =========== MEDIA QUERIES(SMALL DEVICES) ============ */
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+
+    .header_socials,
+    .scroll_down {
+        display: none;
+    }
+    
 }
