@@ -5,7 +5,7 @@ body{
     color: var(--color-white);
     font-family: 'Poppins', sans-serif;
     line-height: 1.7;
-    background-image: url(../src/assets/background.jpg);
+    /* background-image: url(../src/assets/background.jpg); */
 }
 
 * {
@@ -58,6 +58,7 @@ h1 {
 
 section {
     margin-top: 8rem;
+    height: 100vh;
 
 }
 section > h2, section > h5 {
@@ -146,6 +147,7 @@ img {
     display: block;
     width: 100%;
     object-fit: cover;
+    background: var(--color-primary);
 }
 /* =========== MEDIA QUERIES(MEDIUM DEVICES) ============ */
 
