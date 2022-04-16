@@ -4,6 +4,10 @@ header {
     overflow: hidden;
 }
 
+h1 {
+    letter-spacing: 7.04,
+}
+
 .header_container {
     text-align: center;
     height: 100%;
@@ -35,7 +39,7 @@ header {
     content: '';
     width: 1px;
     height: 2rem;
-    background: var(--color-pink-text-dark);
+    background: var(--color-primary);
 }
 
 

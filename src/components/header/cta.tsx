@@ -4,8 +4,8 @@ import React from 'react'
 export const CTA = () => {
   return (
     <div className='cta'>
-        {/* <a href={CV} download className='btn'>Download CV</a> */}
-        <a href="#contact" className='pink-btn btn-primary-pink'>Let's Talk</a>
+        <a href="" download className='btn'>Download CV</a>
+        <a href="#contact" className='pink-btn btn-primary'>Let's Talk</a>
     </div>
   )
 }

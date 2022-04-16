@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <header>
             <div className="container header_container">
-            <h5> Helo I'm </h5>
+            <h5> Hello I'm </h5>
             <h1>Crystal Yal</h1>
             <h5 className="text-light">Frontend Developer</h5>
             <HeaderSocials />
@@ -16,7 +16,7 @@ const Header = () => {
             <div className="me">
                 <img src={me}/>
             </div>
-            <a href="#contact" className='plain-btn scroll_down'>Scroll Down</a>
+            <a href="#contact" className='scroll-btn scroll_down'>Scroll Down</a>
             </div>
         </header>
     )

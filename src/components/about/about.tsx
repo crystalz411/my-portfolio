@@ -27,8 +27,8 @@ const About = () => {
 
             <article className='about_card'>
               <FiUsers className='about_icon'/>
-              <h5>Clients</h5>
-              <small>something here</small>
+              <h5>Industry</h5>
+              <small>Investment Banking<br/> Risk Management</small>
             </article>
 
             <article className='about_card'>
@@ -38,9 +38,13 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Qui amet voluptatum officiis cum error optio libero cupiditate rerum quas. 
-            In eius illum possimus. Ipsam explicabo, assumenda deleniti blanditiis omnis unde.
+          Software engineer offering a strong foundation in software engineering and programming principles across multiple platforms.  Experienced in object-oriented programming,<br/>FrontEnd and Backend; <br/>Developing, testing and debugging code; <br/>Designing interfaces; <br/>Administering systems and networks. 
+          <br/>
+          <br/>
+          Little more about me:<br/>
+            - I have a Degree in Fashion Design, have a background in Arts/Music/Languages<br/>(Currently learning Japanese)<br/>
+            - I have about 30 plants ( proud plant mum )<br/>
+            - Crypto Enthusiast<br/>
           </p>
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
