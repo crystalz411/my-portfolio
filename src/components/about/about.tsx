@@ -8,8 +8,11 @@ import './about.css'
 const About = () => {
   return (
     <section id='about'>
-      <h5>Get To Know</h5>
+      <h5>Get To Know me</h5>
       <h2>About Me</h2>
+      <h5>BSc Computer Science (Software Engineering) <br/>
+            Graduated with a 1st Class
+            </h5>
 
       <div className='container about_container'>
         <div className='about_me'>
@@ -38,13 +41,18 @@ const About = () => {
             </article>
           </div>
           <p>
-          Software engineer offering a strong foundation in software engineering and programming principles across multiple platforms.  Experienced in object-oriented programming,<br/>FrontEnd and Backend; <br/>Developing, testing and debugging code; <br/>Designing interfaces; <br/>Administering systems and networks. 
+          Hello, I'm a Software engineer with a foundation in software engineering and programming principles across multiple platforms.<br/>  
+          Experienced in object-oriented programming, <br/>
+          FrontEnd and Backend; <br/>
+          Developing, testing and debugging code;<br/> 
+          Designing interfaces; <br/>
+          Administering systems and networks.<br/> 
           <br/>
           <br/>
-          Little more about me:<br/>
-            - I have a Degree in Fashion Design, have a background in Arts/Music/Languages<br/>(Currently learning Japanese)<br/>
-            - I have about 30 plants ( proud plant mum )<br/>
-            - Crypto Enthusiast<br/>
+          💻 Software Engineering Skills.<br/>
+          ➤ Web Development: ReactJS, Javascript, NodeJS, Python, Flask, HTML, CSS, REST APIs.<br/>
+          ➤ Database management: MariaDB, MySQLWorkbench, AWS.<br/>
+          ➤ Effective communication, Attention to detail, Ability to learn quickly.<br/>
           </p>
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>

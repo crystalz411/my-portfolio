@@ -73,7 +73,7 @@ section > h2 {
 }
 
 .text-light {
-    color: var(--color-light);
+    color: var(--color-white);
 }
 
 a {
