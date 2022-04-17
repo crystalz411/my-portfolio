@@ -1,6 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio.jpg'
+import IMG4 from '../../assets/shopify.jpg'
 
 const data = [
     {
@@ -26,10 +27,9 @@ const data = [
     },
     {
         id: 4,
-        image: IMG1,
+        image: IMG4,
         title: 'Shopify websites',
-        github: 'https://github.com',
-        demo: 'https://github.com', 
+        demo: 'https://dribbble.com/CrystalzY', 
     }
  ]
 
@@ -50,7 +50,9 @@ const Portfolio = () => {
                             </div>
                             <h3>{title}</h3>
                             <div className='portfolio_item-cta'>
-                                <a href={github} className='btn'>Github</a>
+                                { github &&
+                                    <a href={github} className='btn'>Github</a>
+                                }
                                 <a 
                                 href={demo} 
                                 className='btn btn-primary' 
