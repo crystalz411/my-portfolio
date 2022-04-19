@@ -10,9 +10,6 @@ const About = () => {
     <section id='about'>
       <h5>Get To Know me</h5>
       <h2>About Me</h2>
-      <h5>BSc Computer Science (Software Engineering) <br/>
-            Graduated with a 1st Class
-            </h5>
 
       <div className='container about_container'>
         <div className='about_me'>
@@ -41,7 +38,7 @@ const About = () => {
             </article>
           </div>
           <p>
-          Hello, I'm a Software engineer with a foundation in software engineering and programming principles across multiple platforms.<br/>  
+          I'm a Software engineer with a foundation in software engineering and programming principles across multiple platforms.<br/>  
           Experienced in object-oriented programming, <br/>
           FrontEnd and Backend; <br/>
           Developing, testing and debugging code;<br/> 
