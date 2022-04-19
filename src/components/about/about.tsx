@@ -49,7 +49,14 @@ const About = () => {
           💻 Software Engineering Skills.<br/>
           ➤ Web Development: ReactJS, Javascript, NodeJS, Python, Flask, HTML, CSS, REST APIs.<br/>
           ➤ Database management: MariaDB, MySQLWorkbench, AWS.<br/>
-          ➤ Effective communication, Attention to detail, Ability to learn quickly.<br/>
+          ➤ Effective communication, Attention to detail, Ability to learn quickly.
+          <br/>
+          <br/>
+          Little more about me: <br/>
+
+            - I have a Degree in Fashion Design, have a background in Arts/Music/Languages (Currently learning Japanese)🎌<br/>
+            - I have about 30 plants ( proud plant mum )🪴<br/>
+            - I'm a Crypto Enthusiast🪙<br/>
           </p>
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
