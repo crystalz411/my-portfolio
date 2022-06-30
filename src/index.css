@@ -19,9 +19,10 @@ body{
 }
 
 :root {
-    --color-bg: #1f1f38;
-    --color-bg-varient: #2c2c6c;
-    --color-primary: #4db5ff;
+    --color-bg: #ffff;
+    --color-bg-header: #212123;
+    --color-bg-varient: #44413B;
+    --color-primary: #C4A9AD;
     --color-pink-text: #b0949a;
     --color-pink-text-dark: #8e6971;
     --color-primary-varient: rgba(77, 181, 255, 0.4);
@@ -45,7 +46,7 @@ html {
 /* =========== GENERAL STYLES ============ */
 
 .container {
-    width: var(--container-width-lg);
+    width: auto;
     margin: 0 auto;
 }
 h1, h2, h3, h4, h5 {
@@ -158,7 +159,7 @@ img {
 
 @media screen and (max-width: 1024px){
     .container {
-        width: var(--container-width-md);
+        /* width: var(--container-width-md); */
     }
 
     section {
@@ -170,7 +171,7 @@ img {
 
 @media screen and (max-width: 600px){
     .container {
-        width: var(--container-width-sm);
+        /* width: var(--container-width-sm); */
     }
 
     section > h2 {
